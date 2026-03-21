@@ -1,0 +1,50 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - path_provider_foundation
+    - share_plus
+    - url_launcher_ios
+  - goodoo_pay (1.0.0):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - share_plus (0.0.1):
+    - Flutter
+  - url_launcher_ios (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../../.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../../.ios/Flutter/FlutterPluginRegistrant`)
+  - goodoo_pay (from `../../ios`)
+  - path_provider_foundation (from `../../.ios/.symlinks/plugins/path_provider_foundation/darwin`)
+  - share_plus (from `../../.ios/.symlinks/plugins/share_plus/ios`)
+  - url_launcher_ios (from `../../.ios/.symlinks/plugins/url_launcher_ios/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../../.ios/Flutter"
+  FlutterPluginRegistrant:
+    :path: "../../.ios/Flutter/FlutterPluginRegistrant"
+  goodoo_pay:
+    :path: "../../ios"
+  path_provider_foundation:
+    :path: "../../.ios/.symlinks/plugins/path_provider_foundation/darwin"
+  share_plus:
+    :path: "../../.ios/.symlinks/plugins/share_plus/ios"
+  url_launcher_ios:
+    :path: "../../.ios/.symlinks/plugins/url_launcher_ios/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  FlutterPluginRegistrant: af440d9a3ffc7f414860aa0be897bd83aae37024
+  goodoo_pay: c056572e51f5e772c7d8fb34e1442208391ae6d1
+  path_provider_foundation: 080d55be775b7414fd5a5ef3ac137b97b097e564
+  share_plus: de6030e33b4e106470e09322d87cf2a4258d2d1d
+  url_launcher_ios: 694010445543906933d732453a59da0a173ae33d
+
+PODFILE CHECKSUM: 62a68b5f797b568960980650c05717275aeb4253
+
+COCOAPODS: 1.16.2

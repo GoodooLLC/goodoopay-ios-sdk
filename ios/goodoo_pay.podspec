@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 Native iOS bridge for launching the embedded GoodooPay Flutter payment flow
 from UIKit applications and receiving structured payment results.
                        DESC
-  s.homepage         = 'https://github.com/goodoo-pay/goodoo_pay_flutter'
+  s.homepage         = 'https://github.com/GoodooLLC/goodoopay-ios-sdk'
   s.license          = { :type => 'MIT', :file => '../LICENSE' }
   s.author           = { 'GoodooPay' => 'support@goodoo.kg' }
   s.source           = { :git => 'https://github.com/GoodooLLC/goodoopay-ios-sdk.git', :tag => "v#{s.version}" }

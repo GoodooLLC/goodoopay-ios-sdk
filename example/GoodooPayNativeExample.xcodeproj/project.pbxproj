@@ -13,12 +13,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		702B3EFE425234C5EA1F412C /* Pods-GoodooPayNativeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodooPayNativeExample.debug.xcconfig"; path = "../../../ios/Pods/Target Support Files/Pods-GoodooPayNativeExample/Pods-GoodooPayNativeExample.debug.xcconfig"; sourceTree = "<group>"; };
+		702B3EFE425234C5EA1F412C /* Pods-GoodooPayNativeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodooPayNativeExample.debug.xcconfig"; path = "Target Support Files/Pods-GoodooPayNativeExample/Pods-GoodooPayNativeExample.debug.xcconfig"; sourceTree = "<group>"; };
 		A1B1C1D1E1F10000 /* GoodooPayNativeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodooPayNativeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B1C1D1E1F10002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1B1C1D1E1F10004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1B1C1D1E1F10005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D347010749ED682FA1A7582E /* Pods-GoodooPayNativeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodooPayNativeExample.release.xcconfig"; path = "../../../ios/Pods/Target Support Files/Pods-GoodooPayNativeExample/Pods-GoodooPayNativeExample.release.xcconfig"; sourceTree = "<group>"; };
+		D347010749ED682FA1A7582E /* Pods-GoodooPayNativeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodooPayNativeExample.release.xcconfig"; path = "Target Support Files/Pods-GoodooPayNativeExample/Pods-GoodooPayNativeExample.release.xcconfig"; sourceTree = "<group>"; };
 		FFADDE5B9D5AB4040547F59A /* Pods_GoodooPayNativeExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodooPayNativeExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -87,12 +87,10 @@
 			buildConfigurationList = A1B1C1D1E1F1000C /* Build configuration list for PBXNativeTarget "GoodooPayNativeExample" */;
 			buildPhases = (
 				1918AD5358CFC48C3B2ED8AE /* [CP] Check Pods Manifest.lock */,
-				AED2F63A00C0318F048C97CB /* [CP-User] Run Flutter Build goodoo_pay Script */,
 				A1B1C1D1E1F1000A /* Sources */,
 				A1B1C1D1E1F10006 /* Frameworks */,
 				A1B1C1D1E1F1000B /* Resources */,
 				6F971B899AACD323998EDED8 /* [CP] Embed Pods Frameworks */,
-				6EDADD65F8BAD167806F749A /* [CP-User] Embed Flutter Build goodoo_pay Script */,
 			);
 			buildRules = (
 			);
@@ -168,16 +166,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6EDADD65F8BAD167806F749A /* [CP-User] Embed Flutter Build goodoo_pay Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "[CP-User] Embed Flutter Build goodoo_pay Script";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
-		};
 		6F971B899AACD323998EDED8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -194,16 +182,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoodooPayNativeExample/Pods-GoodooPayNativeExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		AED2F63A00C0318F048C97CB /* [CP-User] Run Flutter Build goodoo_pay Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "[CP-User] Run Flutter Build goodoo_pay Script";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
 		};
 /* End PBXShellScriptBuildPhase section */
 

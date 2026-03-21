@@ -2,7 +2,7 @@ platform :ios, '13.0'
 
 target 'GoodooPayNativeExample' do
   use_frameworks!
-  pod 'goodoo_pay', :path => '../ios'
+  pod 'goodoo_pay', '~> 1.0.0'
 end
 
 post_install do |installer|

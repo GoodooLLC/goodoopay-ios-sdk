@@ -89,8 +89,3 @@ open GoodooPayNativeExample.xcworkspace
 
 3. Выберите симулятор или устройство и нажмите Run.
 
-## Проверка podspec
-
-```bash
-pod lib lint ios/goodoo_pay.podspec --allow-warnings
-```

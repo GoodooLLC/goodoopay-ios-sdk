@@ -89,3 +89,10 @@ open GoodooPayNativeExample.xcworkspace
 
 3. Выберите симулятор или устройство и нажмите Run.
 
+## Поддержка
+
+Если у вас возникли вопросы по интеграции или работе SDK, вы можете связаться с нами:
+
+Телефон: +996 500 88 99 99  
+Email: info@goodoo.kg  
+Telegram: @goodooservice
